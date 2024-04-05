@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 32px;
+    width: 100%;
+}
+
+.Map{
+width: 100%;
+height: 600px;
+background-color: brown;
+display: grid;
+grid-template-areas: 
+'bir iki uc'
+'bir dord dord '
+
+;
+margin-top: 100px;
+}
+.item1 {grid-area: bir; background-color: rgb(40, 42, 47); }
+.item2 {grid-area: iki; background-image: url(./img/Cute-Cat.jpg);
+    background-repeat: no-repeat;
+    background-size: 480px 320px;
+}
+.item3 { grid-area: uc; background-color:rgb(206, 206, 206)}
+.item4 { grid-area: dord; background-image: url(./img/5a9572648011929c_thumb_temp_facebook_post_image_file13465311383053238-ezgif.com-webp-to-jpg-converter.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.ess{
+display: flex;
+flex-direction: column;
+gap: 70px;
+}
